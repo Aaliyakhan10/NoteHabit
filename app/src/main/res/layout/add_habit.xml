@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/hbtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="9dp"
+        app:hintTextColor="@color/LavenderPurpleSoft">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/habitTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter habit"
+            android:textColor="@color/LavenderPurpleDark"
+            android:textColorHint="@color/LavenderPurpleSoft"
+            android:visibility="visible" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/hrstxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="9dp"
+        app:hintTextColor="@color/LavenderPurpleSoft">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/hoursTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No. of hours "
+            android:textColor="@color/LavenderPurpleDark"
+            android:textColorHint="@color/LavenderPurpleSoft"
+            android:visibility="visible" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/addHabitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="@color/LavenderPurpleLight"
+        android:text="Add" />
+</LinearLayout>

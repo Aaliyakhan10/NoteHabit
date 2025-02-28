@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="SeafoamGreen">#9FE2BF</color>
+    <color name="LavenderPurple">#C8A2C8</color>
+    <color name="CharcoalGray">#36454F</color>
+    <color name="SeafoamGreenLight">#B8E9D4</color>  <!-- Lighter shade -->
+   <!-- Original -->
+    <color name="SeafoamGreenDark">#66A98F</color>  <!-- Darker shade -->
+    <color name="SeafoamGreenMuted">#78C3A1</color>  <!-- Muted shade -->
+    <color name="SeafoamGreenSoft">#A7D9B4</color>  <!-- Softer shade -->
+    <color name="LavenderPurpleLight">#D9A5D9</color>  <!-- Lighter shade -->
+    <color name="LavenderPurpleDark">#9E7A9E</color>  <!-- Darker shade -->
+    <color name="LavenderPurpleMuted">#B98EB9</color>  <!-- Muted shade -->
+    <color name="LavenderPurpleSoft">#D1A1D1</color>  <!-- Softer shade -->
+
+
+
+
+</resources>
